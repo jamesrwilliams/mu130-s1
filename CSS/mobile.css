@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*  MOBILE CSS
+
+Main issue with based mobile brosers is the use of fixed positioning. DONT DO IT!
+
+Colours used:
+
+Logo Background/Side bar : #4B5657;
+
+Text area Background: #F4E3C1;
+
+*/
+
+
+
+* {
+	border:0;
+	padding:0;
+}	
+
+a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.colour-bar {
+	min-height:10px;
+	background-color:yellow;
+}
+
+body {
+	background-color:#CCCCCC;
+}
+
+li {
+	color:white;
+	float:left;
+	margin:10px;
+	list-style:none;	
+}
+
+.title-area {
+	height:106px;
+	width:100%;
+	background-color:#4B5657;
+	background-image:url(../images/myunilife-phone.png);
+	background-repeat:no-repeat;
+}
+
+.nav-area {
+	width:100%;
+	float:left;
+	background-color:#4B5657;	
+}
+
+.content {
+	background-color:#F4E3C1;
+	min-height:100%;	
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Universal Reset */
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	color:#4B5657;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+/* HTML Selectors */
+
+body {
+	background-color:#white;		
+}
+
+
+/* Bar changes colour depending on css file used. Used to see what code is being used. */
+
+.colour-bar {
+	opacity:1;
+	min-height:10px;
+	max-height:10px;
+}
+
+/*
+------------------ Page Structure ------------------------------------------------------
+*/
+
+.title-area p {
+	display:inline-block;
+	text-align:start;
+	font-size:30px;
+	font-family:Tahoma, Geneva, sans-serif;
+	colour:#FFF;
+}

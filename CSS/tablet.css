@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin-top:50px;
+	background-color:#969481;	
+}
+
+li {
+	color:white;	
+}
+
+.colour-bar {
+	min-height:10px;
+	background-color:red;
+}
+
+.title-area{
+	min-height:256px;
+	min-width:256px;
+	background-image:url(../images/myunilife-tablet.png);	
+}
+
+.header-area {
+	min-height:268px;
+	min-width:512px;
+	background-image:url(../images/sociallife-desktop.png);	
+}
+
+.side-bar {
+	margin-top:30px;
+	width:260px;
+		-webkit-border-top-left-radius:10px;
+		-webkit-border-bottom-left-radius:10px;	
+		-moz-border-radius:10px;
+}
+
+.content {
+	width:508px;
+	height:630px;
+		-webkit-border-radius:10px;	
+		-moz-border-radius:10px;
+}
+
+.header-area {
+	margin-top:100px;
+	max-height:189px;
+	max-width:580px;
+	background-image:url(../images/freshers2011-tablet.png);
+}
+
+.text-area-one {
+	float:right;
+	height:200px;
+	width:220px;
+	color:#000000;
+	padding:5px;
+	text-align:justify;
+	font-size:12px;
+}
+.text-area-two{
+	float:left;
+	height:200px;
+	width:220px;
+	color:#000000;
+	padding:5px;
+	text-align:justify;
+	font-size:12px;	
+}

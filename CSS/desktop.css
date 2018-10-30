@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*  MOBILE CSS
+
+Main issue with based mobile brosers is the use of fixed positioning. DONT DO IT!
+
+Colours used:
+
+Logo Background/Side bar : #4B5657;
+
+Text area Background: #F4E3C1;
+
+*/
+
+/* Universal Reset & HTML Element Resets */
+
+* {
+	margin:0;
+	padding:0;	
+}
+
+body {
+	margin-top:40px;
+	background-color:#969481;	
+}
+
+a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.colour-bar {
+	min-height:10px;
+	background-color:blue;
+	
+}
+
+.title-area {
+	height:290px;
+	background-image:url(../images/myunilife.png);		
+	width:300px;
+	margin:5px;
+	padding:5px;	
+}
+
+.page-wrap {
+	width:900px;
+	margin:0 auto;
+}
+
+.content {
+	margin-bottom:20px;
+	border-radius:10px;
+		-webkit-border-radius:10px;	
+		-moz-border-radius:10px;
+		
+		/* 	-webkit CSS elements require webkit based browsers such as Safari.
+			-moz used by Mozilla to the same effect of rounding the edges of the div fill.
+			When viewd in other browsers the instrusction is simply ignored such as IE with just display square div
+		*/
+		
+	width:66%;
+	background-color:#F4e3c1;
+	float:right;
+}
+
+.nav-area {
+	padding:10px;	
+}
+
+li {
+	font-size:12px;
+	list-style:none;
+	float:left;
+	padding-left:3px;
+	margin-right:3px;
+	margin-bottom:10px;
+	color: #FFFFFF;
+}
+
+.side-bar {
+	margin-top:30px;
+	width:34%;
+	background-color:#4B5657;
+	float:left;
+}
+
+.side-bar {
+	width:305px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius:10px;
+}
+
+.header-area {
+	margin-top:50px;
+	height:289px;
+	width:580px;
+	background-image:url(../images/freshers2011-desktop.png);
+		-webkit-animation: mainfade 2s;
+     	-moz-animation:    mainfade 2s;
+     	-ms-animation:     mainfade 2s;
+}
+
+.header-area-social {
+	margin-top:50px;
+	height:289px;
+	width:580px;
+	background-image:url(../images/social-desktop.png);
+		-webkit-animation: mainfade 2s;
+     	-moz-animation:    mainfade 2s;
+     	-ms-animation:     mainfade 2s;
+}
+
+.header-area-academics {
+	margin-top:50px;
+	height:289px;
+	width:580px;
+	background-image:url(../images/academics-desktop.png);
+		-webkit-animation: mainfade 2s;
+     	-moz-animation:    mainfade 2s;
+     	-ms-animation:     mainfade 2s;
+}
+
+.text-area-one {
+	float:right;
+	min-height:200px;
+	width:250px;
+	color:#4B5657;
+	padding:20px;
+	text-align:justify;
+	font-size:12px;
+		-webkit-animation: mainfade 2s;
+     	-moz-animation:    mainfade 2s;
+     	-ms-animation:     mainfade 2s;
+}
+
+/* One feature of CSS3 is the animations feature. Simple javascript and flash animations can now
+	be achieved direclty withing the CSS. Below is one of my CSS classes with the animation call 
+	added to it. Below that is the animation decilaration.
+	
+*/
+
+
+.text-area-two{
+	float:left;
+	min-height:200px;
+	width:250px;
+	color:#4B5657;
+	padding:20px;
+	text-align:justify;
+	font-size:12px;	
+		-webkit-animation: mainfade 2s;
+     	-moz-animation:    mainfade 2s;
+     	-ms-animation:     mainfade 2s;
+}
+
+@-webkit-keyframes mainfade {
+        0%   { opacity: 0; }
+        100% { opacity: 1; }
+}
